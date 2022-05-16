@@ -18,6 +18,10 @@ A clothing website
 - add to card (if possible)
 
 # Wireframes
+<img width="765" alt="Screen Shot 2022-05-16 at 11 22 09 AM" src="https://user-images.githubusercontent.com/9922785/168628010-ae1adce7-242b-4c3d-8494-4353aa24572b.png">
+
+<img width="611" alt="Screen Shot 2022-05-16 at 11 32 22 AM" src="https://user-images.githubusercontent.com/9922785/168629696-5096b49c-737b-4b46-9ccc-66f690b2b9b8.png">
+
 
 
 

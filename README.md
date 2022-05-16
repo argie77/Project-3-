@@ -18,13 +18,14 @@ A clothing website
 - add to card (if possible)
 
 # Wireframes
-<img width="765" alt="Screen Shot 2022-05-16 at 11 22 09 AM" src="https://user-images.githubusercontent.com/9922785/168628010-ae1adce7-242b-4c3d-8494-4353aa24572b.png">
-
-<img width="611" alt="Screen Shot 2022-05-16 at 11 32 22 AM" src="https://user-images.githubusercontent.com/9922785/168629696-5096b<img width="771" alt="Screen Shot 2022-05-16 at 12 26 28 PM" src="https://user-images.githubusercontent.com/9922785/168639769-c40376a3-cac8-4d75-a511-98b19d99e318.png">
-49c-737b-4b46-9ccc-66f690b2b9b8.png">
+<img width="765" alt="Screen Shot 2022-05-16 at 11 22 09 AM" src="https://user-images.githubusercontent.com/9922785/168639971-4dbe2040-c331-4f86-907d-23e14144d793.png">
 
 
-<img width="771" alt="Screen Shot 2022-05-16 at 12 26 28 PM" src="https://user-images.githubusercontent.com/9922785/168639860-a124e9b2-9e15-4f84-8f1b-43b148a71fa5.png">
+<img width="611" alt="Screen Shot 2022-05-16 at 11 32 22 AM" src="https://user-images.githubusercontent.com/9922785/168639988-461b2c7d-5789-4165-b5ab-8f288b7c8854.png">
+
+
+<img width="771" alt="Screen Shot 2022-05-16 at 12 26 28 PM" src="https://user-images.githubusercontent.com/9922785/168640001-172f1daf-7d39-48bd-b981-d9503a172b9d.png">
+
 
 
 

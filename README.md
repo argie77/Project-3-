@@ -1,7 +1,7 @@
 # Project-3-
 
 # Project Description 
-A clothing website 
+A Website of E-commerce
 
 ## User Stories 
 - As a user, I want to be able to see the producs.
@@ -31,7 +31,8 @@ A clothing website
 
 ## Technologies
 - Html
-- Css
+- Styled Components
+- Material UI
 - Flexbox/Grid
 - React
 

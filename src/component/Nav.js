@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 function Nav (props) {
 	return (
 		<div className="Nav">
-			<Link to="/ProductDetail">
-				<div>ProductDetail</div>
+			<Link to="/"> Home
+				
 			</Link>
 			<Link to="/Productlist">
 				<div>Productlist</div>

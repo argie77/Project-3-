@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ProductList from "./pages/ProductList";
 import ProductDetail from "./pages/ProductDetail";
 import Home from './component/Home';
+import SearchContainer from "./component/SearchContainer";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
   return (
     <div>     
         <Nav />
+        <SearchContainer/>
         <Routes >
         <Route path="/" element={<Main products={products}/>}/>
           <Route path="/Productlist/" element={<ProductList products={products} />} />

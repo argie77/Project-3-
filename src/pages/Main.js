@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import SearchContainer from "../component/SearchContainer";
 
 function Main(props) {
 
@@ -20,18 +21,19 @@ function Main(props) {
     
     if (!products) return <h1> We can’t find a product</h1>
     const loaded = 
-        //     return (
+    //     return (
         //         <>
         //     <div classname= "h1">
         //  <h1>hello</h1>
         //    </div>
-
-
+        
+        
         // <h1> Kaimono </h1>
         
-            products.map((product, idx) => {
-                return (
-                    <div key={idx} >
+        products.map((product, idx) => {
+            return (
+                <div key={idx} >
+                    
                         <h1>Kaimono</h1>
                         <Link to={`/ProductDetail/${product.id}`}>
 

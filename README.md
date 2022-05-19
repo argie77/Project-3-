@@ -31,8 +31,6 @@ A Website of E-commerce
 
 ## Technologies
 - Html
-- Styled Components
-- Material UI
 - Flexbox/Grid
 - React
 

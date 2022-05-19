@@ -1,10 +1,8 @@
 function Results  (props) {
 
-    //console.log(props)
 
     const productData = props.results.map((product, idx) => {
-       // console.log(productData)
-    //const productData = props.results.map((product, idx) => {
+   
             return(
                 <div key={idx}>
                 <h3>{product.category}</h3>

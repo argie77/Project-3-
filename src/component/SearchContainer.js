@@ -13,15 +13,14 @@ const SearchContainer = () => {
         console.log(e)
         try {
             console.log("Hitting API!")
-            //const apiKey = "<API_KEY>"
-            //const URL = `https://fakestoreapi.com/products/${query}/`
+          
 
             const response = await fetch(`https://fakestoreapi.com/products/category/${query}/`)
             const data = await response.json()
             setResults(data)
             console.log('hello')
             console.log(data, "data here")
-           // console.log(results, "results here")
+          
         } catch(err) {
             console.log(err)
         }

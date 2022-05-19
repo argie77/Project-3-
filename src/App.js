@@ -14,23 +14,7 @@ function App() {
   // State
   const [products, setProducts] = useState(null)
 
-  // Effects
-  // useEffect(() => {
-  //   const getProducts= () => {
-  //     fetch('https://fakestoreapi.com/products')
-  //     .then((res) => {
-  //       return res.json()
-  //     })
-  //     .then((res) => {
-  //       //we define products (use setmethod to define)
-  //       console.log(res.data)
-  //       setProducts(res.data);
-  //     })
-  //   }
-  //   getProducts();
-  // }, [])
-
-  // Getters
+  
   
 
   return (

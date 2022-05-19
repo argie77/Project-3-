@@ -6,22 +6,11 @@ import axios from "axios";
 
 // Component
 const ProductList = ({products}) => {
-  // Declarations
-  
-  // State
-//   const [isLoading, setIsLoading] = useState(true);
 
-//   useEffect(() => {
-//     if (products) {
-//       setIsLoading(false);
-//     }
-//   }, [products])
   
   console.log('product', products);
   
-//   if (isLoading) {
-//     return <img className="loading" src="https://i.gifer.com/7HXg.gif" alt='loading gif' />
-//   }
+
   
   return (
     <div>

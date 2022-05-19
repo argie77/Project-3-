@@ -19,7 +19,7 @@ function Main(props) {
         getProducts()
     }, [])
     
-    if (!products) return <h1> We can’t find a product</h1>
+    if (!products) return <h1 className="loaded"> We can’t find a product!</h1>
     const loaded = 
     //     return (
         //         <>
@@ -38,7 +38,7 @@ function Main(props) {
                         <Link to={`/ProductDetail/${product.id}`}>
 
                             <h3> {product.category}
-                                <img src={product.image} alt={product.title} /></h3>
+                                <img className="image" src={product.image} alt={product.title} /></h3>
                         </Link>
                     </div>
                 )

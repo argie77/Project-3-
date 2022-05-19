@@ -6,6 +6,7 @@ import Results from './Results'
 const SearchContainer = () => {
     let[query, setQuery] = useState('')
     let[results, setResults] = useState([])
+    
 
     async function handleSubmit(e) {
         e.preventDefault()
@@ -17,9 +18,10 @@ const SearchContainer = () => {
 
             const response = await fetch(`https://fakestoreapi.com/products/category/${query}/`)
             const data = await response.json()
-            setResults(data.categories)
+            setResults(data)
             console.log('hello')
-            console.log(data.categories)
+            console.log(data, "data here")
+           // console.log(results, "results here")
         } catch(err) {
             console.log(err)
         }
@@ -30,6 +32,7 @@ const SearchContainer = () => {
         setQuery(e.target.value)
     }
 
+    console.log(results, "results here")
     return(
         <>
             < Search handleSubmit={handleSubmit} handleChange={handleChange} query={query} />

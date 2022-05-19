@@ -2,10 +2,11 @@ function Results  (props) {
 
     //console.log(props)
 
-    const productData = props.results.map((product) => {
+    const productData = props.results.map((product, idx) => {
+       // console.log(productData)
     //const productData = props.results.map((product, idx) => {
             return(
-                <div>
+                <div key={idx}>
                 <h3>{product.category}</h3>
                 < img src={product.image.url} alt={product.title}  />
                 </div>

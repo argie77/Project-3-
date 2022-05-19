@@ -34,7 +34,7 @@ function Main(props) {
             return (
                 <div key={idx} >
                     
-                        <h1>Kaimono</h1>
+                        <h1></h1>
                         <Link to={`/ProductDetail/${product.id}`}>
 
                             <h3> {product.category}

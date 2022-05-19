@@ -17,7 +17,7 @@ function Main(props) {
         getProducts()
     }, [])
     
-    if (!products) return <h1 className="loaded"> We can’t find a product!</h1>
+    if (!products) return <h1 className="loaded">Loading... </h1>
     const loaded = 
    
         

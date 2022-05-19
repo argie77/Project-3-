@@ -15,7 +15,6 @@ A Website of E-commerce
 
 ## Stretch Goals
 - Search bar
-- add to card (if possible)
 
 # Wireframes
 <img width="765" alt="Screen Shot 2022-05-16 at 11 22 09 AM" src="https://user-images.githubusercontent.com/9922785/168639971-4dbe2040-c331-4f86-907d-23e14144d793.png">

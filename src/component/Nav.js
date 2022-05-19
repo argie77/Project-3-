@@ -5,7 +5,7 @@ function Nav (props) {
 	return (
 		<div className="Nav">
 			<div className="title">KAIMONO</div>
-				<div>Categories</div>
+				<div>Search Categories</div>
 			
 		</div>
 	)

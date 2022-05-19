@@ -41,18 +41,46 @@
   height: auto;
   background-color: azure;
   margin-left: 300px;
-
 }
+
 .details img {
   width: 540px;
   height: auto;
-  size: 5px;
+  size: 10px;
   margin-left:0px;
 }
 
-.image {
-width: 300px;
-height: auto;
-size:5px;
 
+.detail:hover{
+  transform: scale(1.1);
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 200px;
+  margin: 30px 30px;
+  
+}
+
+.image:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+.title {
+  align-items: center;
+  font-size: 80px;
+  margin-left: 400px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.Nav {
+  background-color: aliceblue;
+  width: auto;
+  height: px;
 }

@@ -17,10 +17,11 @@ function Main(props) {
         getProducts()
     }, [])
     
+    //Ray help with the if to properly read the map
     if (!products) return <h1 className="loaded">Loading... </h1>
     const loaded = 
    
-        
+        //Troy help to resize the image
         products.map((product, idx) => {
             return (
                 <div key={idx} >
@@ -29,6 +30,7 @@ function Main(props) {
                         <Link to={`/ProductDetail/${product.id}`}>
 
                             <h3> {product.category}
+                                
                                 <img className="image" src={product.image} alt={product.title} /></h3>
                         </Link>
                     </div>

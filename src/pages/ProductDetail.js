@@ -33,6 +33,7 @@ const ProductDetail = (props) => {
     })
   }
    
+  // Details of the product
   const loaded = () => (
     <div className="details">
     <h1>  {product.title}</h1>
